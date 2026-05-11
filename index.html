@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- Define que o documento utiliza HTML5 -->
+<html lang="en">
+<!-- Início do documento HTML e definição do idioma -->
+
+<head>
+    <!-- Área de configurações da página -->
+    <meta charset="UTF-8">
+    <!-- Define o padrão de caracteres como UTF-8 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Configura a responsividade da página em diferentes dispositivos -->
+    <title> Auditoria e Integração de Sistemas</title>
+    <!-- Define o título exibido na aba do navegador -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Conecta o arquivo CSS responsável pela estilização -->
+</head>
+
+<body>
+    <!-- Corpo da página -->
+    <div class="container">
+        <!-- Div principal que agrupa os elementos da interface -->
+        <h1>Lista da bilheteria</h1>
+        <!-- Título principal da página -->
+
+        <input type="text" id="nome" placeholder="Digite um nome">
+        <!-- Campo de texto utilizado para digitar nomes -->
+
+        <button onclick="validarPessoas()">Processar</button>
+        <!-- Botão que executa a função validarPessoas() -->
+         
+        <p id="mensagem"></p>
+        <!-- Área utilizada para exibir mensagens ao usuário -->
+        <div class="lista_container">
+            <!-- Div responsável pela área da lista -->
+            <h2>Nomes Validados</h2>
+            <!-- Subtítulo da lista -->
+            <hr>
+            <!-- Linha horizontal para separação visual -->
+            <ul id="lista">
+                <!-- Lista não ordenada onde os nomes serão adicionados -->
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <!-- Conecta o arquivo JavaScript responsável pela lógica da página -->
+
+</body>
+
+</html>
