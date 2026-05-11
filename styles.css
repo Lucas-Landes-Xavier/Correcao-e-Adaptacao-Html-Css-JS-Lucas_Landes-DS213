@@ -1,0 +1,109 @@
+body {
+    /* Define a fonte principal da página */
+    font-family: Arial, sans-serif;
+    /* Utiliza Flexbox para organizar os elementos */
+    display: flex;
+    /* Centraliza os elementos horizontalmente */
+    justify-content: center;
+    /* Centraliza os elementos verticalmente */
+    align-items: center;
+    /* Define a altura do body ocupando toda a tela */
+    height: 100vh;
+    /* Define a cor de fundo da página */
+    background-color:#1a192d;
+}
+
+h1, h2{
+    /* Define a cor dos títulos h1 e h2 */
+    color: white
+}
+
+.container {
+    /* Centraliza o texto dentro da div */
+    text-align: center;
+    /* Espaçamento interno da div */
+    padding: 20px;
+    /* Cor de fundo da caixa principal */
+    background-color: #4e6695;
+    /* Define a largura da caixa */
+    width: 400px;
+    /* Arredonda os cantos da div */
+    border-radius: 10px;
+    /* Adiciona sombra ao redor da caixa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.lista_container{
+    /* Centraliza o texto dentro da div */
+    text-align: center;
+    /* Espaçamento interno */
+    padding: 20px;
+    /* Cor de fundo da área da lista */
+    background-color: #13042e;
+    /* Arredonda os cantos da caixa */
+    border-radius: 10px;
+    /* Adiciona sombra ao redor da caixa */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#titulo{
+    /* Define a cor do título com id "titulo" */
+    color:aliceblue;
+}
+
+input {
+    /* Espaçamento interno do campo */
+    padding: 10px;
+    /* Define a borda do input */
+    border: 1px solid #140042;
+    /* Arredonda os cantos do campo */
+    border-radius: 5px;
+}
+
+button {
+    /* Espaçamento interno do botão */
+    padding: 10px 20px;
+    /* Define a largura do botão */
+    width: 110px;
+    /* Define a altura do botão */
+    height: 40px;
+    /* Cor de fundo do botão */
+    background-color: #71a6df;
+    /* Cor do texto do botão */
+    color: white;
+    /* Remove a borda padrão */
+    border: none;
+    /* Arredonda os cantos */
+    border-radius: 5px;
+    /* Muda o cursor para formato de mão */
+    cursor: pointer;
+    /* Define a espessura da fonte */
+    font-weight: 400;
+}
+
+button:hover {
+    /* Altera a cor do botão quando o mouse passa sobre ele */
+    background-color: rgb(57, 142, 233);
+}
+
+p {
+    /* Define o tamanho da fonte */
+    font-size: 18px;
+    /* Deixa o texto em negrito */
+    font-weight: bold;
+    /* Define a cor do texto */
+    color:#a6342a;
+}
+
+ul {
+    /* Remove os marcadores da lista */
+    list-style: none;
+    /* Define a cor do texto da lista */
+    color: aliceblue;
+    /* Centraliza o texto */
+    text-align: center;
+    /* Remove o espaçamento interno */
+    padding: 0;
+    /* Remove o espaçamento externo */
+    margin: 0;
+}
